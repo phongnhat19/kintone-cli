@@ -1,0 +1,39 @@
+{
+  "name": "kintone-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "js-base64": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "0.0.3",
+    "@types/node": "^7.0.22",
+    "eslint": "4.0.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "3.5.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.3.3",
+    "typescript-eslint-parser": "3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phongnhat19/kintone-cli.git"
+  },
+  "author": "Nhat Nguyen",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/phongnhat19/kintone-cli/issues"
+  },
+  "homepage": "https://github.com/phongnhat19/kintone-cli#readme"
+}
